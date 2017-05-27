@@ -1,0 +1,185 @@
+body{
+	background-color: #ebebeb;
+}
+a{
+	text-decoration: none!important;	
+}
+
+.navbar{
+	background-color: #fff;
+	border-bottom: 2px #e1e1e1 solid;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #fff;
+    border-bottom: 2px #e67e22 solid;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+@media (min-width:767px){
+	.navbar-header i img{
+		display: none;
+	}
+}
+.mydiv{
+	margin-top: 35px;
+	padding-top: 30px;
+	background-color: #fff;
+	padding-bottom: 40px;
+	position: relative;
+}
+.mydiv div{
+	margin-top: -20px;
+	margin-left: 33px;
+	border-bottom: 1px #E2E2E2 solid;
+}
+.mydiv div a{
+	color: #000000;
+	font-size: 24px;
+	text-align: left;
+	padding-bottom: 3px;
+	border-bottom: 1px #e67e22 solid;
+}
+.mydiv p{
+	text-align: left;
+	margin: 0 auto;
+	margin: 0 33px;
+}
+.mydiv h5 a{
+	color: #f49b22;
+}
+.mydiv button{
+	display: block;
+	margin-left: 33px;
+	border: none;
+	padding: 10px;
+	margin-top: 30px;
+	background-color: #e67e22;
+	
+}
+.mydiv button a{
+	color: #fff;
+}
+hr {
+	margin-left: 30px;
+	margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #E2E2E2;
+}
+.mydiv span{
+	text-align: left;
+	margin-left: 33px;
+	background-image: url(../../img/images/images/A_lg_03.png);
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+}
+.mydiv span a{
+	font-size: 12px;
+	padding-left: 20px;
+	color: #959595;
+}
+.mydiv h6{
+	position: absolute;
+	top: -10px;
+	right: 0;
+}
+.page{
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+.page a{
+	display: inline-block;
+	padding: 10px 10px;
+	background-color: #e67e22;
+	color: #fff;
+}
+.mya{
+	border-bottom: none!important;
+	margin-top: 20px!important;
+}
+.mya a{
+	display: inline-block;
+	padding: 5px 5px;
+	margin-left: 10px;
+	font-size: 16px!important;
+	padding-bottom: 0!important;
+	border: 1px #E2E2E2 solid;
+	border-bottom:1px #E2E2E2 solid!important;
+	margin-top: 20px!important;
+}
+.main-footer{
+	background: #202020;
+	padding: 35px 0 0;
+	color: #959595;
+}
+.main-footer .widget{
+	padding: 0px 30px;
+    margin-bottom: 35px;
+}
+.main-footer .widget .title{
+	color: #ffffff;
+	border-bottom: 1px solid #303030;
+	margin-top: 0;
+	padding-bottom: 7px;
+	margin-bottom: 21px;
+	position: relative;
+}
+.widget .title::after {
+    content: "";
+    width: 90px;
+    height: 1px;
+    background: #e67e22;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+.recent-single-post {
+    border-bottom: 1px dashed #303030!important;
+    padding-bottom: 14px;
+	margin-bottom: 14px;
+}
+.date {
+    color: #505050;
+}
+.post-title{
+	color: #959595;;
+}
+.main-footer .widget .tag-cloud a {
+    border: 1px solid #303030;
+    padding: 2px 7px;
+color: #959595;
+line-height: 1.5em;
+display: inline-block;
+margin: 0 7px 7px 0;
+}
+.main-footer .widget .friend-links a {
+    border: none;
+    padding: 2px 7px;
+	color: #959595;
+	line-height: 1.5em;
+	display: inline-block;
+	margin: 0 7px 7px 0;
+	transition: all 0.2s ease;
+}
+.friend-links hr {
+    margin: 1em 0;
+    border-top: 1px dashed #303030!important;
+    border: 0;
+    height: 0;
+}
+
+.mytop{
+	margin-top: 30px;
+}
+.footer{
+	background-color: #111111;
+}
+.footer p{
+	padding: 15px;	
+}
